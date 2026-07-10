@@ -117,4 +117,6 @@ Workflow file: `.github/workflows/unstop-hackathon-alert.yml`
 - **Playwright pagination**: Fixed overly broad number detection (max 50 pages clamp)
 - **Dead code removed**: Unused `_parse_prize_inr`, `if False` no-op
 - **Input sanitization**: Category input is now sanitized and truncated
-- **Prize info**: Messages now include location and prize in notifications"# unstop-scraper" 
+- **Prize info**: Messages now include location and prize in notifications
+
+# unstop-scraper
