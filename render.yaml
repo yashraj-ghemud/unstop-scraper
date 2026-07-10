@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: unstop-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python render_app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.6"

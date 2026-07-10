@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.python-version
+.env
+/.env.*
+env/.env
+env/*.local
+user_prefs.json
+user_state.json
+*.log
