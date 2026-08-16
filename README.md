@@ -1,5 +1,32 @@
-# unstop-scraper
-> Lightweight Python agent that scrapes Unstop for open hackathons, applies deterministic (stage‑1) filters and optional Groq LLM classification, deduplicates using a repo-backed seen.json, and sends Telegram notifications.
+<p align="center">
+  <img src="./.github/readme-assets/blueprint.gif" alt="Animated blueprint / system visual for unstop-scraper" width="100%" />
+</p>
+
+<h1 align="center">unstop-scraper</h1>
+
+<p align="center"><strong>Lightweight Python agent that scrapes Unstop for open hackathons, applies deterministic (stage‑1) filters and optional Groq LLM classification, deduplicates using a repo-backed seen.json, and sends Telegram notifications.</strong></p>
+
+<p align="center"><code>REPO//SIGNAL</code> · <code>BLUEPRINT / SYSTEM</code> · <code>LOOPING README EXPERIENCE</code></p>
+
+## Live signal
+
+| Lens | Readout |
+| --- | --- |
+| Portfolio lane | **BLUEPRINT / SYSTEM** |
+| Code surface | **20** tracked files observed |
+| Primary materials | **Python, YAML, Markdown, JSON** |
+| Verification | **0** test-related files observed |
+
+> A structural view of the project machinery. The animated frame above is a lightweight visual signature; the sections below remain the source of truth for implementation details.
+
+## Motion map
+
+`INGEST` → `COMPOSE` → `SHIP`
+
+Trace the repository from inputs and dependencies through its core modules to the delivered surface. Keep configuration explicit, make failure states observable, and add verification around the highest-value paths.
+
+<details open>
+<summary><strong>Open the full project dossier</strong></summary>
 
 ## Overview
 A modular Python project that scans Unstop for hackathons, applies configurable filters, optionally disambiguates results with a Groq LLM, and notifies a Telegram chat. It supports scheduled runs via the included GitHub Actions workflow and an interactive long‑polling Telegram bot. A small Flask endpoint and Render configuration are included for optional long‑running deployments.
@@ -93,3 +120,9 @@ Inspect config.py, env/, and render.yaml for defaults and how the project expect
 - There are no CONTRIBUTING.md or automated test suites in the repo. If you plan changes that affect state persistence, notification, or secrets handling, prefer small PRs and review seen.json handling carefully.
 
 (There is no license file detected in the repository evidence.)
+
+</details>
+
+---
+
+<p align="center"><sub>README motion system · visual layer by RepoSignal · implementation details remain project-specific</sub></p>
